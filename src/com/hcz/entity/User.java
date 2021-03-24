@@ -5,7 +5,10 @@ public class User {
     private String username;
     private String pwd;
     private int age;
+
     private String address
+            
+    private String phone
 
 
     public String getPwd() {
