@@ -5,6 +5,8 @@ public class User {
     private String username;
     private String pwd;
     private int age;
+    private String address
+
 
     public String getPwd() {
         return pwd;
