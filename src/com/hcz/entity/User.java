@@ -3,7 +3,8 @@ package com.hcz.entity;
 public class User {
     private int id;
     private String username;
-    private String pwd
+    private String pwd;
+    private int age;
 
     public String getPwd() {
         return pwd;
