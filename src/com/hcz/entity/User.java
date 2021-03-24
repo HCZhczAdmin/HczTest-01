@@ -3,7 +3,16 @@ package com.hcz.entity;
 public class User {
     private int id;
     private String username;
-    private String pwd
+    private String pwd;
+    private int age;
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
 
     public String getPwd() {
         return pwd;
